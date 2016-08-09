@@ -1,0 +1,5 @@
+#intro{width:100%;position:relative;height:900px;background:url(../img/common/top_bg.png) center top no-repeat;}
+#intro .inner{width:940px;position:absolute;left:50%;text-align:center;margin-left:-470px;}
+#intro p{margin-top:20px;}
+#intro p#scrbn{margin-top:60px;}
+

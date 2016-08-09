@@ -1,0 +1,67 @@
+
+#pickup {
+    height: 700px;
+    position: relative;
+    width: 100%;
+}
+#mainvisual {
+    height: 500px;
+    margin: 20px auto 0;
+    overflow: hidden;
+    position: relative;
+}
+#slider li {
+    position: absolute;
+}
+#slider li img {
+    width: 100%;
+}
+.slider_left_ {
+    background: url("../img//mainvisual/blank.gif") repeat scroll 0 0 transparent;
+    height: 500px;
+    left: -1000px;
+    position: absolute;
+    top: 0;
+    width: 1000px;
+}
+.slider_right_ {
+    background: url("../img/usr/mainvisual/blank.gif") repeat scroll 0 0 transparent;
+    height: 500px;
+    position: absolute;
+    right: -1000px;
+    top: 0;
+    width: 1000px;
+}
+.prev-next {
+    margin: 0 auto;
+    position: relative;
+    width: 576px;
+}
+.SLIDER-prev, .SLIDER-next {
+    border: 0 none;
+    display: block;
+    height: 63px;
+    overflow: hidden;
+    position: absolute;
+    text-decoration: none;
+    top: 150px !important;
+    vertical-align: baseline;
+    width: 62px;
+}
+.SLIDER-prev {
+    background: url("../img/pick/prev.png") no-repeat scroll 0 0 transparent;
+    left: -90px;
+    text-indent: -9999px;
+}
+.SLIDER-next {
+    background: url("../img/pick/next.png") no-repeat scroll 0 0 transparent;
+    right: -90px;
+    text-indent: -9999px;
+}
+.SLIDER-prev:hover, .SLIDER-next:hover {
+    background-position: 0 -65px;
+    text-decoration: none;
+}
+:first-child + html .SLIDER-prev, *:first-child + html .SLIDER-next {
+    top: 0;
+}

@@ -1,0 +1,27 @@
+a:link{color:#222222;text-decoration:underline;}
+a:visited{color:#222222;text-decoration:underline;}
+body{background:none repeat scroll 0 0 #FFFFFF;font-family:Myriad Helvetica Arial "Meiryo" "メイリオ" sans-serif;font-size:13px;}
+html.osMac body body.osMac{font-family:Myriad Helvetica Arial "Hiragino Kaku Gothic ProN" "ヒラギノ角ゴ ProN W3" "Meiryo""メイリオ" sans-serif;}
+#container{width:100%;height:100%;display:none;}
+#wrap{width:100%;}
+#header{background:none repeat scroll 0 0 #FFFFFF;height:60px;position:absolute;top:-60px;width:100%;z-index:4000;display:none;}
+#header.fixed{background:none repeat scroll 0 0 #FFFFFF;height:60px;position:fixed;width:100%;z-index:4000;}
+#header .inner{height:100%;margin:0 auto;position:relative;width:980px;}
+#pagetop a{background:url("../img/common/pagetop_bn.png") no-repeat scroll left top transparent;height:156px;overflow:hidden;right:0;text-indent:-9999px;top:300px;width:39px;z-index:1000;}
+#pagetop a:hover{background:url("../img/common/pagetop_bn.png") no-repeat scroll 0 -156px transparent;}
+h1{left:0;position:absolute;}
+nav{overflow:hidden;position:absolute;right:0;}
+nav ul li{float:left;}
+nav ul li a{background-repeat:no-repeat;display:block;height:59px;text-align:center;text-indent:-9999px;}
+.titlebg{background:none repeat scroll 0 0 #FFFFFF;height:60px;padding-top:60px;top:0;width:100%;}
+.titlebox{overflow:hidden;width:960px;}
+h3{float:left;}
+.titleleft{float:right;}
+.titleleft .name{float:left;}
+.titleleft .linkurl{display:inline-block;float:left;margin:8px 0 0 15px;}
+.titleleft .detail{margin-top:5px;}
+#footer{border-top:1px solid #CCCCCC;height:180px;margin-top:50px;text-align:center;}
+#footer img{margin-top:50px;}
+#js_fade{background-color:#FFFFFF;background-image:url("../img/common/mainload.gif");background-position:50% 50%;background-repeat:no-repeat;height:100%;left:0;position:fixed;top:0;width:100%;z-index:1000;}
+.clearfix:after{clear:both;content:".";display:block;height:0;line-height:0;visibility:hidden;}
+

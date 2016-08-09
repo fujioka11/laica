@@ -1,0 +1,71 @@
+
+#motion {
+    height: 1000px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+#motion .inner_bg {
+    background: url("../img/motion/bg.png") no-repeat scroll center top transparent;
+    height: 900px;
+    left: 50%;
+    margin-left: -795px;
+    overflow: hidden;
+    position: absolute;
+    width: 1591px;
+}
+#motion #funnel_movie {
+    height: 500px;
+    left: 50%;
+    margin-left: -325px;
+    padding-top: 120px;
+    position: absolute;
+    top: 0;
+    width: 684px;
+}
+.movie_btn a {
+    background: url("../img/motion/next.png") no-repeat scroll left top transparent;
+    height: 68px;
+    left: 50%;
+    margin-left: -56px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -9999px;
+    top: 480px;
+    width: 69px;
+}
+.movie_btn a:hover {
+    background: url("../img/motion/next.png") no-repeat scroll left -67px transparent;
+}
+#aboutbg1 {
+    background: url("../img/motion/works_1.png") no-repeat scroll center top transparent;
+    height: 1000px;
+    left: 50%;
+    margin-left: -750px;
+    position: absolute;
+    width: 1500px;
+}
+#aboutbg2 {
+    background: url("../img/motion/works_2.png") no-repeat scroll center top transparent;
+    height: 1000px;
+    left: 50%;
+    margin-left: -920px;
+    position: absolute;
+    width: 1500px;
+}
+#aboutbg3 {
+    background: url("../img/motion/works_3.png") no-repeat scroll center top transparent;
+    height: 1000px;
+    left: 50%;
+    margin-left: -740px;
+    position: absolute;
+    width: 1500px;
+}
+#aboutbg4 {
+    background: url("../img/motion/works_4.png") no-repeat scroll center top transparent;
+    height: 930px;
+    left: 50%;
+    margin-left: -750px;
+    position: absolute;
+    width: 1500px;
+}

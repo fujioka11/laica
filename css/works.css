@@ -1,0 +1,100 @@
+
+#works {
+    position: relative;
+    width: 100%;
+}
+#works .inner {
+    margin: 0 auto;
+    width: 980px;
+}
+#workup {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E5E5E5;
+    padding: 33px 0;
+    position: relative;
+    width: 100%;
+}
+#workup .pickup {
+    position: absolute;
+    right: -8px;
+    top: -7px;
+}
+#workup .leftcontents {
+    float: left;
+    margin-right: 30px;
+    width: 606px;
+}
+#workup .rightcontents {
+    float: left;
+    width: 286px;
+}
+#workup .name {
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+#workup .detail {
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    font-size: 90%;
+    line-height: 1.6em;
+    margin-top: 15px;
+    padding: 10px 0;
+    width: 100%;
+}
+#workcontents {
+    margin-top: 30px;
+}
+div.event {
+    cursor: pointer;
+    float: left;
+    height: 230px;
+    line-height: 1.9em;
+    margin-bottom: 50px;
+    margin-right: 49px;
+    position: relative;
+    width: 208px;
+}
+div.event div.innerbox {
+    margin: 0 auto;
+    width: 208px;
+}
+div.event p.title {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 15px;
+    width: 177px;
+}
+div.event div.cover {
+    background: none repeat scroll 0 0 #F7F7F7;
+    border-top: 3px solid #22467C;
+    display: none;
+    height: 244px;
+    padding: 0 10px;
+    position: absolute;
+    top: 0;
+    width: 188px;
+}
+div.coverBox {
+    border-bottom: 1px dotted;
+    height: 155px;
+    position: relative;
+    text-align: left;
+    top: 20px;
+    line-height:1.6em;
+}
+.cliant {
+font-size: 13px;
+    font-weight: bold;
+}
+.detailtxt{
+padding:10px 0 18px;
+font-size:11px;
+line-height:1.6em;
+
+}
+.link {
+    position: absolute;
+    right: 10px;
+    text-align: right;
+    top: 193px;
+}
